@@ -13,7 +13,7 @@ def process_(file):
 #---------------------------------------------------------------------------------------------------------------------------------------------
 if __name__ == "__main__":
     # Connect to MySQL Server using SQLAlchemy
-    engine = db.create_engine("mysql+mysqlconnector://akanksha:Akankshajolly29!@localhost:3306/dir", echo=False)
+    engine = db.create_engine("mysql+mysqlconnector://rasika:Rasikajolly29!@localhost:3306/dir", echo=False)
     connection = engine.connect()
 #---------------------------------------------------------------------------------------------------------------------------------------------
     # Point to the directory of inputs; stock market data CSV files
